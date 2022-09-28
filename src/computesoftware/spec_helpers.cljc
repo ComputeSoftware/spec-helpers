@@ -10,7 +10,7 @@
     [spec-tools.core :as stools]
     [spec-tools.parse :as parse]
     [computesoftware.spec-helpers.gen :as h.gen]
-    [computesoftware.spec-helpers.malli-registry :as malli-registry])
+    [computesoftware.malli-registry :as malli-registry])
   #?(:clj (:import (java.time Duration)
                    (java.time.temporal TemporalUnit)
                    (java.util Date))))
