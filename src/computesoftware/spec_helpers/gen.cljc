@@ -63,7 +63,7 @@
             val#
             (gen/return val#)))
        (c/let [[binding gen & more] bindings]
-         `(gen/bind ~gen (fn [~binding] (c/let [~@more] ~@body)))))))
+         `(gen/bind ~gen (fn [~binding] (let [~@more] ~@body)))))))
 
 (defn non-empty-string-alphanumeric
   "Generator for non-empty alphanumeric strings"
