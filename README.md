@@ -3,5 +3,5 @@
 ## Installation 
 
 ```clojure
-com.computesoftware/spec-helpers {:mvn/version "0.1.6"}
+com.computesoftware/spec-helpers {:mvn/version "0.1.9"}
 ```
